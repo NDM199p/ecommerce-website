@@ -5,6 +5,8 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { RouterProvider } from "react-router-dom";
 import router from "./Routes";
+import "./Assets/Fonts/Causten/Causten-Regular.otf";
+import "./Assets/Fonts/Core Sans C/coresansc45.otf";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
