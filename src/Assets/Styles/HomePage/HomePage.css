@@ -1,0 +1,119 @@
+.HomePage{
+  width: 1440px;
+  height: 7819px;
+  margin: 0;
+  padding: 0;
+  /* background-color: aquamarine; */
+}
+.tabbar{
+  width: 1440px;
+  height: 108px;
+  flex-shrink: 0;
+/* background-color: aqua; */
+display: flex;
+
+
+}
+.logo a{
+  color: #3C4242;
+  font-family: Mintaka;
+  font-size: 34.064px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 40px 10px 32px 90px;
+  text-decoration: none;
+  display: flex;
+  
+}
+.tabbar ul{
+  display:flex;
+  list-style: none;
+  text-decoration: none;
+  padding: 31px 30px 32px 12px;
+}
+.tabbar ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: #3C4242;
+font-family: Causten;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 45px;
+
+}
+.seach{
+  padding: 40px 0px 32px 10px;
+
+
+  
+}
+.seach input{
+  display: flex;
+  width: 240px;
+  padding: 12px 20px;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+background: #F6F6F6;
+border-style: none;
+left: 20px;
+
+}
+.seach svg{
+  position: absolute;
+  top: 48px;
+  
+}
+.icon1{
+  padding: 31px;
+  width: 0px;
+  height: 0px;
+  margin-top: 5px;
+  
+}
+.icon1 svg{
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 8px;
+  background: #F6F6F6;
+  
+  
+}
+.icon2{
+  padding: 31px ;
+  width: 20px;
+  height:40px;
+}
+.icon2 svg{
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+ 
+  border-radius: 8px;
+  background: #F6F6F6;
+  margin-left: 10px;
+    margin-top: 5px;
+}
+.icon3{
+  padding: 31px ;
+  width: 20px;
+  height:40px ;
+}
+.icon3 svg{
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 8px;
+  background: #F6F6F6;
+  margin-left: 0px;
+    margin-top: 5px;
+}
