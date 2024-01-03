@@ -1,0 +1,90 @@
+.contactdetails {
+}
+
+.contactdetailsnav__layout {
+  display: flex;
+  gap: 40px;
+}
+
+.contactdetailsnav {
+}
+
+.contactdetailsnav__title {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.contactdetailsnav__title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 6px;
+  height: 100%;
+  border-radius: 10px;
+  background: #8a33fd;
+}
+
+.contactdetailsnav__title p {
+  padding-left: 15px;
+  color: #3c4242;
+  font-family: Core Sans C;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33.5px; /* 119.643% */
+  letter-spacing: 0.56px;
+}
+
+.contactdetailsnav__describe {
+  color: #807d7e;
+  font-family: Core Sans C;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.5px; /* 239.286% */
+  letter-spacing: 0.28px;
+}
+
+.contactdetailsnav__listnav {
+}
+
+.contactdetailsnav__listnav ul {
+  list-style: none;
+}
+
+.contactdetailsnav__listnav ul li {
+  padding-left: 35px;
+}
+
+.contactdetailsnav__listnav ul li a {
+  display: flex;
+  gap: 15px;
+  text-decoration: none;
+  color: #807d7e;
+  font-family: Causten;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.contactdetailsnav__listitem {
+  padding: 10px 0;
+  position: relative;
+}
+
+.contactdetailsnav__listitem--active {
+  background-color: #f6f6f6;
+}
+
+.contactdetailsnav__listitem--active::before {
+  padding: 10px 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #3c4242;
+}

@@ -6,6 +6,7 @@ import CartPage from "../Pages/CartPage";
 //=======
 import EmptyCartPage from "../Pages/EmptyCart";
 import NotFoundPage from "../Pages/ErrorPage";
+import ContactDetails from "../Pages/ContactDetails";
 // develop
 
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/empty-cart",
     element: <EmptyCartPage />,
+  },
+  {
+    path: "/contact-details",
+    element: <ContactDetails />,
   },
   {
     path: "/cart-page",
