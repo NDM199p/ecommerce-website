@@ -7,6 +7,7 @@ import CartPage from "../Pages/CartPage";
 import EmptyCartPage from "../Pages/EmptyCart";
 import NotFoundPage from "../Pages/ErrorPage";
 import ContactDetails from "../Pages/ContactDetails";
+import AddAddress from "../Pages/AddAddress";
 // develop
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/contact-details",
     element: <ContactDetails />,
+  },
+  {
+    path: "/add-address",
+    element: <AddAddress />,
   },
   {
     path: "/cart-page",
