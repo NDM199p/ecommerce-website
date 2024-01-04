@@ -1,4 +1,5 @@
 .contactdetails {
+  margin-bottom: 100px;
 }
 
 .contactdetailsnav__layout {
@@ -7,6 +8,7 @@
 }
 
 .contactdetailsnav {
+  width: 340px;
 }
 
 .contactdetailsnav__title {
@@ -87,4 +89,196 @@
   width: 2px;
   height: 100%;
   background-color: #3c4242;
+}
+
+.contactdetailscontent {
+  flex-grow: 1;
+}
+
+.contactdetailscontent hr {
+  margin-bottom: 20px;
+  color: #edeef2;
+
+  height: 1px;
+  /* color: #123455; */
+  background-color: #edeef2;
+  border: none;
+}
+
+.contactdetailscontent__title {
+  color: #3c4242;
+  font-family: Core Sans C;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33.5px; /* 119.643% */
+  letter-spacing: 0.56px;
+  margin-bottom: 20px;
+}
+
+.contactdetailscontent__subtitle {
+  color: #3c4242;
+  font-family: Core Sans C;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33.5px; /* 152.273% */
+  letter-spacing: 0.44px;
+  margin-bottom: 30px;
+}
+
+.contactdetailscontent__form {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.contactdetailscontent__input {
+  display: flex;
+  flex-direction: column;
+  color: #3c4242;
+}
+
+.contactdetailscontent__input label {
+  color: #807d7e;
+  font-family: Causten;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.contactdetailscontent__input input {
+  font-family: Causten;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: none;
+  border: none;
+  color: #3c4242;
+}
+
+.contactdetailscontent__form button {
+  border: none;
+  background: none;
+  color: #3c4242;
+
+  font-family: Causten;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.contactdetailscontent__subtitlelayout {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 30px;
+}
+
+.contactdetailscontent__subtitlelayout .contactdetailscontent__subtitle {
+  margin: 0;
+}
+
+.contactdetailscontent__subtitlelayout button {
+  color: #3c4242;
+
+  font-family: Causten;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  background: none;
+}
+
+.contactdetailscontent__adddressgrid {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: auto auto;
+}
+
+/* address card */
+
+.addresscard {
+  border-radius: 12px;
+  background: #f6f6f6;
+  padding: 25px 43px;
+}
+
+.addresscard__title {
+  color: #3c4242;
+
+  font-family: Causten;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.addresscard__subtitle {
+  color: #807d7e;
+
+  font-family: Causten;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.addresscard__describe {
+  color: #807d7e;
+
+  font-family: Causten;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.addresscard__taglayout {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.addresscard__taglayout button {
+  display: flex;
+  padding: 7px 19px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #807d7e;
+  color: #807d7e;
+
+  font-family: Causten;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.addresscard__actions {
+  display: flex;
+  gap: 20px;
+}
+
+.addresscard__actions a {
+  color: #3c4242;
+
+  font-family: Causten;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
 }

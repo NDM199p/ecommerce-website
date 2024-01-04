@@ -49,6 +49,110 @@ function ContactDetails() {
             </div>
             <div className="contactdetailscontent">
               <p className="contactdetailscontent__title">My Info</p>
+              <p className="contactdetailscontent__subtitle">Contact Details</p>
+              <div className="contactdetailscontent__form">
+                <div className="contactdetailscontent__input">
+                  <label htmlFor="">Your Name</label>
+                  <input type="text" name="" id="" placeholder="Jhanvi Shah" disabled />
+                </div>
+
+                <button>
+                  <p>Change</p>
+                </button>
+              </div>
+              <hr />
+              <div className="contactdetailscontent__form">
+                <div className="contactdetailscontent__input">
+                  <label htmlFor="">Email Address</label>
+                  <input type="text" name="" id="" placeholder="Jhanvi@gmail.com" disabled />
+                </div>
+
+                <button>
+                  <p>Change</p>
+                </button>
+              </div>
+              <hr />
+              <div className="contactdetailscontent__form">
+                <div className="contactdetailscontent__input">
+                  <label htmlFor="">Phone Number</label>
+                  <input type="text" name="" id="" placeholder="8980252445" disabled />
+                </div>
+
+                <button>
+                  <p>Change</p>
+                </button>
+              </div>
+              <hr />
+              <div className="contactdetailscontent__form">
+                <div className="contactdetailscontent__input">
+                  <label htmlFor="">Password</label>
+                  <input type="password" name="" id="" value={"2432"} disabled />
+                </div>
+
+                <button>
+                  <p>Change</p>
+                </button>
+              </div>
+              <div className="contactdetailscontent__element">
+                <div className="contactdetailscontent__subtitlelayout">
+                  <p className="contactdetailscontent__subtitle">Address</p>
+                  <button className="contactdetailscontent__subtitletext">Add New</button>
+                </div>
+                <div className="contactdetailscontent__elementcontent">
+                  <div className="contactdetailscontent__adddressgrid">
+                    <div className="addresscard">
+                      <p className="addresscard__title">Jhanvi shah</p>
+                      <div className="addresscard__subtitle">8980252445</div>
+                      <div className="addresscard__describe">
+                        1/4 Pragatinagar Flats, opp. jain derasar , near Jain derasar, Vijaynagar
+                        road
+                      </div>
+                      <div className="addresscard__taglayout">
+                        <button>Home</button>
+                        <button>Default billing address</button>
+                      </div>
+                      <div className="addresscard__actions">
+                        <a href="">Remove</a>
+                        <a href="">Edit</a>
+                      </div>
+                    </div>
+
+                    <div className="addresscard">
+                      <p className="addresscard__title">Jhanvi shah</p>
+                      <div className="addresscard__subtitle">8980252445</div>
+                      <div className="addresscard__describe">
+                        1/4 Pragatinagar Flats, opp. jain derasar , near Jain derasar, Vijaynagar
+                        road
+                      </div>
+                      <div className="addresscard__taglayout">
+                        <button>Home</button>
+                        <button>Default billing address</button>
+                      </div>
+                      <div className="addresscard__actions">
+                        <a href="">Remove</a>
+                        <a href="">Edit</a>
+                      </div>
+                    </div>
+
+                    <div className="addresscard">
+                      <p className="addresscard__title">Jhanvi shah</p>
+                      <div className="addresscard__subtitle">8980252445</div>
+                      <div className="addresscard__describe">
+                        1/4 Pragatinagar Flats, opp. jain derasar , near Jain derasar, Vijaynagar
+                        road
+                      </div>
+                      <div className="addresscard__taglayout">
+                        <button>Home</button>
+                        <button>Default billing address</button>
+                      </div>
+                      <div className="addresscard__actions">
+                        <a href="">Remove</a>
+                        <a href="">Edit</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
