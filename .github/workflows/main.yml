@@ -11,7 +11,7 @@ on:
 jobs:
   test:
     name: deploy to staging
-    runs-on: ubuntu-18.04
+    runs-on: windows-latest
 
     steps:
       - name: Setup Node
