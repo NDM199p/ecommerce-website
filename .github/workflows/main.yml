@@ -1,0 +1,19 @@
+on:
+  push:
+    branches:
+    - develop
+
+jobs:
+  test:
+    name: deploy to staging
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '10.x'
+      - name: npm install test
+        run: |
+          npm install
+          npm test
