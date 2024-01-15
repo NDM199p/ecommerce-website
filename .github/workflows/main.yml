@@ -15,9 +15,9 @@ jobs:
 
     steps:
       - name: Setup Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: '10.x'
+        uses: actions/setup-node@v4.0.1
+      - name: Ls file
+        run: ls
       - name: npm install test
         run: |
           npm install
