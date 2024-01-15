@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Setup Node
         uses: actions/setup-node@v4.0.1
+      - name: cccd
+        run: cd ..
       - name: Ls file
         run: ls
       - name: npm install test
